@@ -86,10 +86,12 @@ My-Store-Electronics/
 │   │   └── productController.js
 │   ├── models/
 │   ├── routes/
+│   ├── data/
+│   │   └── products.json
+│   └── server.js
 │   ├── .env.example
 │   ├── package.json
 │   ├── package-lock.json
-│   └── server.js
 ├── frontend/
 │   ├── public/
 │   ├── src/
@@ -105,6 +107,33 @@ My-Store-Electronics/
 ├── .gitignore
 └── README.md
 ```
+
+## 📦 Sample Product Dataset
+
+The application includes a sample electronics catalogue containing **15 products** across three categories:
+
+| Category | Number of Products |
+|---|---:|
+| Laptops | 5 |
+| Mobile Phones | 5 |
+| Tablets | 5 |
+| **Total** | **15** |
+
+Each product contains the following fields:
+
+- `title` — Product name
+- `description` — Product description and specifications
+- `price` — Sample price in INR (₹)
+- `category` — Product category
+- `image` — Product image URL
+- `stock` — Available sample inventory quantity
+
+The dataset can be used for development, testing product listings, category filtering, and demonstrating the shopping experience.
+
+**Dataset location:** `backend/data/products.json`
+
+> **Note:** These are sample product records for demonstration purposes. Prices, stock quantities, and product details should be verified before any real-world commercial use.
+
 
 ## ⚙️ Prerequisites
 
