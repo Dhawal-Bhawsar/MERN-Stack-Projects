@@ -231,6 +231,7 @@ Use the exact variable names expected by your application. Do not commit actual 
 
 - GitHub: [@Dhawal-Bhawsar](https://github.com/Dhawal-Bhawsar)
 - Project Repository: [MERN-Stack-Projects](https://github.com/Dhawal-Bhawsar/MERN-Stack-Projects/tree/main/Olive%20Table%20%E2%80%93%20Restaurant%20Website)
+- Email: dhawalbhawsar04@gmail.com
 
 ## 📄 License
 
