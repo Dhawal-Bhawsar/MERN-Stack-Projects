@@ -1,51 +1,138 @@
-# 🍽️ The Olive Table — Restaurant Reservation Application
+# 🍽️ The Olive Table — Restaurant Website
 
-A full-stack restaurant website built using the **MERN stack (MongoDB, Express.js, React.js, and Node.js)**. The Olive Table provides a welcoming restaurant experience with an elegant interface, menu highlights, team information, and an online reservation form.
+A modern restaurant website built with the MERN stack, designed to showcase delicious food, highlight the culinary team, and provide customers with an intuitive restaurant reservation experience.
 
-## 📌 Project Overview
+The Olive Table combines an elegant design, food-focused visuals, and thoughtfully written content to create a welcoming online presence for a restaurant.
 
-The Olive Table is designed to showcase a modern restaurant website with a clean layout, engaging food imagery, and a straightforward reservation experience. The application combines a React frontend with a Node.js and Express backend, with MongoDB used for data storage where configured.
+<p align="center">
+  <img src="screenshots/homepage-hero.png" alt="The Olive Table homepage hero" width="100%">
+</p>
 
-The website features restaurant information, popular dishes, team profiles, and a reservation form where customers can enter their details and preferred booking date and time.
+<p align="center">
+  <strong>A taste of something special.</strong><br>
+  Fresh ingredients, exceptional food, unforgettable moments.
+</p>
+
+---
+
+## 📌 Table of Contents
+
+- [Overview](#-overview)
+- [Features](#-features)
+- [Screenshots](#-screenshots)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Environment Configuration](#-environment-configuration)
+- [Future Improvements](#-future-improvements)
+- [Author](#-author)
+
+## 📖 Overview
+
+The Olive Table is a restaurant website created to deliver a visually appealing and user-friendly dining experience online.
+
+Visitors can explore the restaurant's story, discover popular dishes, learn about the culinary team, browse restaurant services, and access a reservation form to provide their booking details.
+
+The project focuses on clean UI design, reusable React components, and a structured application that can be extended with additional restaurant management features.
 
 ## ✨ Features
 
-- **Restaurant Landing Page** — A welcoming homepage with restaurant branding and food imagery.
-- **About Us Section** — Introduces the restaurant's philosophy and dining experience.
-- **Popular Dishes** — Highlights featured dishes with descriptive content.
-- **Quality Food & Service** — Showcases food quality, taste, and delivery-related information.
-- **Our Team** — Displays chef profiles and their professional roles.
-- **Online Reservation Form** — Collects customer details and preferred reservation date and time.
-- **Responsive UI** — A clean, visually appealing interface designed for a convenient browsing experience.
-- **Restaurant Footer** — Displays restaurant branding, location, opening hours, and copyright information.
-- **MERN Stack Architecture** — Separates the frontend from backend application logic.
+- **Elegant Homepage:** A visually engaging landing page with restaurant branding and food imagery.
+- **About Us:** Introduces the restaurant's philosophy and commitment to quality food.
+- **Quality Food:** Highlights fresh ingredients and attention to food preparation.
+- **Super Taste:** Showcases the restaurant's focus on flavor and carefully crafted recipes.
+- **Fast Delivery:** Presents convenient food delivery as part of the restaurant experience.
+- **Popular Dishes:** Features selected dishes with descriptive content.
+- **Our Team:** Showcases chef profiles and their culinary roles.
+- **Restaurant Services:** Highlights the services offered to customers.
+- **Reservation Section:** Provides a form for entering customer details and preferred booking information.
+- **Customized Footer:** Includes restaurant branding, location, opening hours, and copyright information.
+- **Responsive Design:** Uses a structured layout intended to provide a consistent experience across screen sizes.
+
+## 📸 Screenshots
+
+### 1. Homepage
+
+<p align="center">
+  <img src="screenshots/homepage-hero.png" alt="Homepage hero section" width="100%">
+</p>
+
+<p align="center">
+  <img src="screenshots/homepage-preview.png" alt="Restaurant homepage preview" width="100%">
+</p>
+
+### 2. About Us
+
+<p align="center">
+  <img src="screenshots/about-us.png" alt="About The Olive Table" width="100%">
+</p>
+
+### 3. Popular Dishes
+
+<p align="center">
+  <img src="screenshots/popular-dishes.png" alt="Popular dishes section" width="100%">
+</p>
+
+### 4. Restaurant Statistics
+
+<p align="center">
+  <img src="screenshots/restaurant-statistics.png" alt="Restaurant statistics section" width="100%">
+</p>
+
+### 5. Our Team
+
+<p align="center">
+  <img src="screenshots/our-team.png" alt="Restaurant chef profiles" width="100%">
+</p>
+
+### 6. Restaurant Services
+
+<p align="center">
+  <img src="screenshots/restaurant-services.png" alt="Restaurant services section" width="100%">
+</p>
+
+### 7. Reservation Section
+
+<p align="center">
+  <img src="screenshots/reservation-section.png" alt="Restaurant reservation form" width="100%">
+</p>
+
+### 8. Reservation and Footer
+
+<p align="center">
+  <img src="screenshots/reservation-and-footer.png" alt="Reservation section and restaurant footer" width="100%">
+</p>
 
 ## 🛠️ Tech Stack
 
 | Technology | Purpose |
 |---|---|
-| React.js | Frontend user interface |
-| JavaScript | Application functionality |
-| HTML5 | Page structure |
-| CSS3 | Styling and layout |
-| Node.js | Backend runtime |
-| Express.js | Backend API and server |
-| MongoDB | Database |
-| Mongoose | MongoDB object modeling |
+| React.js | Building reusable UI components |
+| JavaScript | Application logic and interactions |
+| HTML5 | Website structure |
+| CSS3 | Styling, layout, and visual presentation |
+| Node.js | Backend runtime, if used in the application |
+| Express.js | Backend APIs, if configured |
+| MongoDB | Database storage, if configured |
+| Mongoose | MongoDB object modeling, if configured |
 
-*The exact dependencies and database integration depend on the implementation in the project source code.*
+The frontend uses React components to organize the restaurant website into sections such as About Us, Menu, Team, Services, Reservations, and Footer.
 
 ## 📂 Project Structure
 
 ```text
-Full Stack Restaurant Application/
+Olive Table – Restaurant Website/
+│
 ├── frontend/
 │   ├── public/
 │   ├── src/
 │   │   ├── components/
-│   │   ├── pages/
-│   │   ├── App.jsx
-│   │   └── main.jsx
+│   │   │   ├── About.jsx
+│   │   │   ├── Menu.jsx
+│   │   │   ├── Team.jsx
+│   │   │   └── Footer.jsx
+│   │   ├── restApi.json
+│   │   └── ...
 │   ├── package.json
 │   └── package-lock.json
 │
@@ -58,24 +145,35 @@ Full Stack Restaurant Application/
 │   ├── package.json
 │   └── package-lock.json
 │
+├── screenshots/
+│   ├── homepage-hero.png
+│   ├── homepage-preview.png
+│   ├── about-us.png
+│   ├── popular-dishes.png
+│   ├── restaurant-statistics.png
+│   ├── our-team.png
+│   ├── restaurant-services.png
+│   ├── reservation-section.png
+│   └── reservation-and-footer.png
+│
 ├── .gitignore
 └── README.md
+
 ```
 
-*The structure above is illustrative. Keep the actual filenames and folders from your repository if they differ.*
+*The tree illustrates the intended documentation and screenshot layout. Keep your actual project files and folder names unchanged.*
 
-## ⚙️ Getting Started
-
-Follow these steps to run the project locally.
+## 🚀 Getting Started
 
 ### Prerequisites
 
-Install the following:
+Make sure you have installed:
 
 - [Node.js](https://nodejs.org/)
-- npm (included with Node.js)
-- [MongoDB](https://www.mongodb.com/) or a MongoDB Atlas connection, if required by the backend
+- npm
 - Git
+
+MongoDB is also required if your application uses a database-backed reservation workflow.
 
 ### 1. Clone the Repository
 
@@ -86,102 +184,80 @@ git clone https://github.com/Dhawal-Bhawsar/MERN-Stack-Projects.git
 Navigate to the project directory:
 
 ```bash
-cd "MERN-Stack-Projects/Full Stack Restaurant Application"
+cd "MERN-Stack-Projects/Olive Table – Restaurant Website"
 ```
 
-### 2. Set Up the Backend
+### 2. Install Frontend Dependencies
 
 ```bash
-cd backend
+cd frontend
 npm install
 ```
 
-Create the required environment configuration file based on the variables referenced in your backend code. For example, if your application uses these variables:
+### 3. Start the Frontend
+
+Run the development command configured in your `frontend/package.json`. For a typical Vite application:
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal to view the website.
+
+### 4. Start the Backend (If Applicable)
+
+If your project includes a separate backend, open another terminal:
+
+```bash
+cd "MERN-Stack-Projects/Olive Table – Restaurant Website/backend"
+npm install
+```
+
+Start the server using the script defined in `backend/package.json`, for example:
+
+```bash
+npm run dev
+```
+
+Configure the required environment variables before starting a database-connected backend.
+
+## 🔐 Environment Configuration
+
+If your application uses environment variables, create a local environment file containing the variables required by your code.
+
+For example:
 
 ```env
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 ```
 
-Replace the example values with your actual configuration. Never commit real credentials or secrets to GitHub.
+Use the exact variable names expected by your application. Do not commit actual credentials, database connection strings, or API keys to GitHub.
 
-Start the backend using the script defined in `backend/package.json`. For example:
+## 🔮 Future Improvements
 
-```bash
-npm run dev
-```
-
-If your project uses `npm start` instead, run that command.
-
-### 3. Set Up the Frontend
-
-Open another terminal:
-
-```bash
-cd "MERN-Stack-Projects/Full Stack Restaurant Application/frontend"
-npm install
-```
-
-Start the frontend using the script defined in `frontend/package.json`. For a Vite-based application, this is commonly:
-
-```bash
-npm run dev
-```
-
-Open the local URL displayed in your terminal.
-
-> **Note:** The exact start commands and environment variable names should match your project's existing configuration files.
-
-## 📝 Reservation Workflow
-
-1. Open the restaurant website.
-2. Explore the restaurant information and featured dishes.
-3. Navigate to the reservation section.
-4. Enter your name, email address, preferred date and time, and any other requested details.
-5. Submit the reservation form.
-6. The backend should validate and process the request according to the application's implementation.
-
-## 🎨 UI Customization
-
-The website content has been refined to provide a more professional restaurant identity:
-
-- Replaced placeholder text with restaurant-specific descriptions.
-- Updated the About Us section to emphasize fresh ingredients and memorable dining experiences.
-- Improved the Quality Food, Super Taste, and Fast Delivery descriptions.
-- Updated the Our Team introduction.
-- Customized the footer with The Olive Table branding and restaurant information.
-
-## 🔐 Environment Variables
-
-Keep private configuration in local environment files that are excluded from version control.
-
-Typical variables may include:
-
-| Variable | Purpose |
-|---|---|
-| `PORT` | Backend server port |
-| `MONGO_URI` | MongoDB connection string |
-
-These are examples; use the actual variable names referenced in your application.
-
-## 🚀 Future Improvements
-
-Potential enhancements include:
-
-- User authentication and reservation history.
-- Reservation availability checks and duplicate-booking prevention.
+- User registration and authentication.
+- Real-time reservation availability.
 - Booking confirmation emails.
-- An admin dashboard to manage reservations.
-- Form validation and improved error handling.
-- Deployment with a publicly accessible frontend and backend.
+- Reservation history and cancellation.
+- An admin dashboard for managing bookings.
+- Improved form validation and error handling.
+- Deployment with a live website URL.
 
 ## 👨‍💻 Author
 
 **Dhawal Bhawsar**
 
-- GitHub: [Dhawal-Bhawsar](https://github.com/Dhawal-Bhawsar)
-- Project Repository: [MERN-Stack-Projects](https://github.com/Dhawal-Bhawsar/MERN-Stack-Projects/tree/main/Full%20Stack%20Restaurant%20Application)
+- GitHub: [@Dhawal-Bhawsar](https://github.com/Dhawal-Bhawsar)
+- Project Repository: [MERN-Stack-Projects](https://github.com/Dhawal-Bhawsar/MERN-Stack-Projects/tree/main/Olive%20Table%20%E2%80%93%20Restaurant%20Website)
 
 ## 📄 License
 
-This project is available for learning and portfolio purposes. Add a license file if you intend to distribute it under a specific open-source license.
+This project is intended for learning and portfolio demonstration. Add a `LICENSE` file if you wish to distribute it under a specific open-source license.
+
+---
+
+<p align="center">
+  <strong>The Olive Table</strong><br>
+  Fresh ingredients, exceptional food, unforgettable moments. 🍃
+</p>
