@@ -103,26 +103,51 @@ The frontend uses React components to organize the restaurant website into secti
 ## 📂 Project Structure
 
 ```text
+
 Olive Table – Restaurant Website/
 │
 ├── frontend/
 │   ├── public/
 │   ├── src/
+│   │   ├── assets/
+│   │   │   └── react.svg
+│   │   │
 │   │   ├── components/
 │   │   │   ├── About.jsx
 │   │   │   ├── Menu.jsx
 │   │   │   ├── Team.jsx
-│   │   │   └── Footer.jsx
-│   │   ├── restApi.json
-│   │   └── ...
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Hero.jsx
+│   │   │   ├── Qualities.jsx
+│   │   │   ├── Reservation.jsx
+│   │   │   ├── Services.jsx
+│   │   │   ├── SpecialDishes.jsx
+│   │   │   ├── PopularDishes.jsx
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   ├── index.css
+│   │   ├── main.jsx
+│   │   └── restApi.json
+│   │
+│   ├── index.html
 │   ├── package.json
-│   └── package-lock.json
+│   ├── package-lock.json
+│   └── vite.config.js
 │
 ├── backend/
 │   ├── config/
+│   │   └── db.js
+│   │
 │   ├── controllers/
+│   │   └── reservationController.js
+│   │
 │   ├── models/
+│   │   └── reservationSchema.js
+│   │
 │   ├── routes/
+│   │   └── reservationRoute.js
+│   │
 │   ├── server.js
 │   ├── package.json
 │   └── package-lock.json
@@ -140,6 +165,7 @@ Olive Table – Restaurant Website/
 │
 ├── .gitignore
 └── README.md
+
 ```
 
 *The tree illustrates the intended documentation and screenshot layout. Keep your actual project files and folder names unchanged.*
