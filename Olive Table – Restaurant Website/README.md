@@ -4,9 +4,8 @@ A modern restaurant website built with the MERN stack, designed to showcase deli
 
 The Olive Table combines an elegant design, food-focused visuals, and thoughtfully written content to create a welcoming online presence for a restaurant.
 
-<p align="center">
-  <img src="screenshots/homepage-hero.png" alt="The Olive Table homepage hero" width="100%">
-</p>
+<img width="1917" height="872" alt="Home Page" src="https://github.com/user-attachments/assets/983721b4-53e8-4bf5-ba37-185e5aede891" />
+
 
 <p align="center">
   <strong>A taste of something special.</strong><br>
@@ -53,55 +52,38 @@ The project focuses on clean UI design, reusable React components, and a structu
 
 ### 1. Homepage
 
-<p align="center">
-  <img src="screenshots/homepage-hero.png" alt="Homepage hero section" width="100%">
-</p>
+<img width="1917" height="872" alt="Home Page" src="https://github.com/user-attachments/assets/585ebc5a-b2f1-4d69-959f-1b5eee5ad480" />
 
-<p align="center">
-  <img src="screenshots/homepage-preview.png" alt="Restaurant homepage preview" width="100%">
-</p>
 
 ### 2. About Us
 
-<p align="center">
-  <img src="screenshots/about-us.png" alt="About The Olive Table" width="100%">
-</p>
+<img width="1917" height="915" alt="About Us" src="https://github.com/user-attachments/assets/d7c8ae67-d7f8-44ff-bc80-fca1ae35215d" />
+
 
 ### 3. Popular Dishes
 
-<p align="center">
-  <img src="screenshots/popular-dishes.png" alt="Popular dishes section" width="100%">
-</p>
+<img width="1917" height="1015" alt="Popular Dishes" src="https://github.com/user-attachments/assets/cddcde8c-d8c3-4310-9304-845953518ab4" />
+
 
 ### 4. Restaurant Statistics
 
-<p align="center">
-  <img src="screenshots/restaurant-statistics.png" alt="Restaurant statistics section" width="100%">
-</p>
+<img width="1917" height="887" alt="Restaurant Statistics" src="https://github.com/user-attachments/assets/4b04cecc-10d3-4fcf-a270-cd2c5b28b48f" />
+
 
 ### 5. Our Team
 
-<p align="center">
-  <img src="screenshots/our-team.png" alt="Restaurant chef profiles" width="100%">
-</p>
+<img width="1900" height="525" alt="Our Team" src="https://github.com/user-attachments/assets/acda58ce-76a7-4abb-9ad4-9b6ceef82ed5" />
+
 
 ### 6. Restaurant Services
 
-<p align="center">
-  <img src="screenshots/restaurant-services.png" alt="Restaurant services section" width="100%">
-</p>
+<img width="1917" height="431" alt="Restaurant Services" src="https://github.com/user-attachments/assets/3c9f49d7-e222-4e2b-b0f7-b5a469071755" />
 
-### 7. Reservation Section
 
-<p align="center">
-  <img src="screenshots/reservation-section.png" alt="Restaurant reservation form" width="100%">
-</p>
+### 7. Reservation and Footer
 
-### 8. Reservation and Footer
+<img width="1917" height="930" alt="Reservation And Footer" src="https://github.com/user-attachments/assets/b7191c29-6672-4483-9c44-f04ba5720680" />
 
-<p align="center">
-  <img src="screenshots/reservation-and-footer.png" alt="Reservation section and restaurant footer" width="100%">
-</p>
 
 ## 🛠️ Tech Stack
 
