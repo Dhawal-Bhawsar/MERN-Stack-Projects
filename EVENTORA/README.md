@@ -72,7 +72,7 @@ Eventora follows three major workflows: OTP verification, ticket booking, and ad
 
 ### Application Workflow Diagram
 
-![Eventora Workflow Diagram](screenshots/09-system-workflow.png)
+<img width="1532" height="807" alt="Flowchart" src="https://github.com/user-attachments/assets/ce19609c-2eb6-4f5e-b4dd-18315fcdced2" />
 
 ### 1. OTP Verification Flow
 - User initiates an OTP request.
@@ -99,37 +99,42 @@ Eventora follows three major workflows: OTP verification, ticket booking, and ad
 
 **Login Page**
 
-![Login Page](screenshots/01-login.png)
+<img width="1916" height="1017" alt="Login Page" src="https://github.com/user-attachments/assets/f87cecc4-eed6-41ec-b96b-d1231943492a" />
 
 **Registration Page**
 
-![Sign Up Page](screenshots/02-signup.png)
+<img width="1917" height="1017" alt="Sign Up Page" src="https://github.com/user-attachments/assets/379f18f5-9a2e-494d-a0d3-e5f3cf13d2c9" />
 
 ### 2. Home & Event Discovery
 
 **Homepage**
 
-![Homepage](screenshots/03-homepage.png)
+<img width="1900" height="998" alt="Home Page" src="https://github.com/user-attachments/assets/220af0ab-5772-4a15-8f20-29de4e8612c1" />
 
 **Upcoming Events**
 
-![Upcoming Events](screenshots/04-upcoming-events.png)
+<img width="1896" height="1027" alt="Upcoming Events" src="https://github.com/user-attachments/assets/a1f08e43-2012-441d-88ac-d9458c64bca9" />
+
+**Footer**
+
+<img width="1896" height="233" alt="Footer" src="https://github.com/user-attachments/assets/8779bf28-6e58-4f5a-9f6e-03df7a961f2c" />
+
 
 ### 3. Event Booking
 
 **Event Details**
 
-![Event Details](screenshots/05-event-details.png)
+<img width="1917" height="1022" alt="Event Details" src="https://github.com/user-attachments/assets/012f8ab7-35a1-43df-ae42-d77e6964a4d3" />
 
 **OTP Booking Verification**
 
-![OTP Verification](screenshots/06-booking-otp.png)
+<img width="1896" height="1017" alt="Event Detail Otp" src="https://github.com/user-attachments/assets/96be5340-a037-4369-810c-0d249730509b" />
 
 ### 4. Administration
 
 **Admin Dashboard**
 
-![Admin Dashboard](screenshots/07-admin-dashboard.png)
+<img width="1897" height="1021" alt="Admin Dashboard" src="https://github.com/user-attachments/assets/b5c5c4fb-e9ef-4278-a045-f8e965eb391a" />
 
 ## ⚙️ Installation & Setup
 
