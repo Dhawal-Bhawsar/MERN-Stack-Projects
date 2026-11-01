@@ -8,11 +8,6 @@ Eventora is a full-stack event booking platform developed using the **MERN Stack
 
 The application also features an administrative dashboard that enables administrators to create and manage events, review booking requests, confirm payments, monitor seat availability, and track platform revenue.
 
-## 🎬 Project Demonstration
-
-[![Eventora Demo](https://img.youtube.com/vi/n7ii3Zcs6k0/maxresdefault.jpg)](https://youtu.be/n7ii3Zcs6k0)
-
-**[▶ Watch the Complete Project Demo](https://youtu.be/n7ii3Zcs6k0)**
 
 ## ✨ Key Features
 
@@ -240,35 +235,84 @@ npm run dev
 ```text
 EVENTORA/
 │
-├── client/
-│   ├── public/
+├── client/                         # React frontend application
+│   ├── public/                     # Static assets (if added)
 │   ├── src/
+│   │   ├── components/             # Reusable UI components
+│   │   │   └── Navbar.jsx
+│   │   │
+│   │   ├── context/                # Global application state
+│   │   │   └── AuthContext.jsx
+│   │   │
+│   │   ├── pages/                  # Application pages
+│   │   │   ├── AdminDashboard.jsx
+│   │   │   ├── EventDetail.jsx
+│   │   │   ├── Home.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── PaymentFailed.jsx
+│   │   │   ├── PaymentSuccess.jsx
+│   │   │   ├── Register.jsx
+│   │   │   └── UserDashboard.jsx
+│   │   │
+│   │   ├── utils/                  # API utilities
+│   │   │   └── axios.js
+│   │   │
+│   │   ├── App.jsx                 # Main application component
+│   │   ├── main.jsx                # React entry point
+│   │   └── index.css               # Global styles
+│   │
+│   ├── index.html
 │   ├── package.json
-│   └── ...
+│   ├── package-lock.json
+│   ├── vite.config.js
+│   ├── tailwind.config.js
+│   └── postcss.config.js
 │
-├── server/
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
+├── server/                         # Node.js backend
+│   ├── controllers/                # Business logic
+│   │   ├── authcontroller.js
+│   │   ├── bookingController.js
+│   │   └── eventController.js
+│   │
+│   ├── middleware/                 # Authentication middleware
+│   │   └── auth.js
+│   │
+│   ├── models/                     # MongoDB schemas
+│   │   ├── Bookings.js
+│   │   ├── Event.js
+│   │   ├── OTP.js
+│   │   └── User.js
+│   │
+│   ├── routes/                     # REST API routes
+│   │   ├── auth.js
+│   │   ├── booking.js
+│   │   └── events.js
+│   │
+│   ├── utils/                      # Email utilities
+│   │   └── email.js
+│   │
+│   ├── server.js                  # Backend entry point
+│   ├── seed.js                    # Database seeding
 │   ├── package.json
-│   └── ...
+│   ├── package-lock.json
+│   └── .env.example
 │
-├── screenshots/
-│   ├── 01-login.png
-│   ├── 02-signup.png
-│   ├── 03-homepage.png
-│   ├── 04-upcoming-events.png
-│   ├── 05-event-details.png
-│   ├── 06-booking-otp.png
-│   ├── 07-admin-dashboard.png
-│   └── 09-system-workflow.png
+├── Screenshots/                    # Application screenshots
+│   ├── Admin Dashboard.png
+│   ├── Event Detail Otp.png
+│   ├── Event Details.png
+│   ├── Flowchart.png
+│   ├── Footer.png
+│   ├── Home Page.png
+│   ├── Login Page.png
+│   ├── Sign Up Page.png
+│   └── Upcoming Events.png
 │
+├── .gitignore
 ├── package.json
 ├── package-lock.json
-├── .gitignore
 └── README.md
+
 ```
 
 *The structure is illustrative. Retain the actual filenames and folders from your project.*
@@ -311,7 +355,7 @@ This project provided practical exposure to:
 B.Tech – Computer Science Engineering (Data Science)
 
 - GitHub: [Dhawal-Bhawsar](https://github.com/Dhawal-Bhawsar)
-- LinkedIn: [Add your LinkedIn Profile]
+- LinkedIn: [Dhawal Bhawsar](https://www.linkedin.com/in/dhawal-bhawsar-10b8b324b/)
 
 ---
 
