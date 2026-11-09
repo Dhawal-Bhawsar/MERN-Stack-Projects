@@ -376,13 +376,6 @@ By combining full-stack web development, data visualization, and generative AI, 
 - GitHub: [@Dhawal-Bhawsar](https://github.com/Dhawal-Bhawsar)
 - LinkedIn: [Dhawal Bhawsar](https://www.linkedin.com/in/dhawal-bhawsar-10b8b324b/)
 
-## 🙌 Acknowledgements
-
-- UI inspiration and starter boilerplate: [Time To Program – AI Habit Tracker UI Boilerplate](https://github.com/time-to-program/ai-habit-tracker-ui-boilerplate-code)
-- Project reference/tutorial: [Watch on YouTube](https://www.youtube.com/watch?v=PO-UZsQnkNU)
-- Google Gemini API for AI-powered functionality.
-- MongoDB, Express.js, React.js, and Node.js communities.
-
 ---
 
 ⭐ If you find this project interesting, consider giving the repository a star!
