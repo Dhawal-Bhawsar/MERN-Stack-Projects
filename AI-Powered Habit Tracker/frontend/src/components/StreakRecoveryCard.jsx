@@ -1,0 +1,1 @@
+export default function StreakRecoveryCard({ habit, onDismiss }) { return <div className="card p-4 flex justify-between"><span>Ready to restart <b>{habit.name}</b>?</span><button onClick={onDismiss}>Dismiss</button></div>; }
